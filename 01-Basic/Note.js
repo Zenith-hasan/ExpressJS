@@ -20,5 +20,5 @@ app.get('/home',(req,res) => {
 })
 
 app.listen(3000,() => {
-	console.log(`Server listening at https://localhost:3000`)
+	console.log(`Server listening at http://localhost:3000`)
 })
