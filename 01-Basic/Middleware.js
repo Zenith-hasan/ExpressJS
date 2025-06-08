@@ -4,8 +4,10 @@ const express = require("express");
 const app = express();
 
 app.use(function (req, res, next) {
-  console.log("A new request recived at" + Date.now());
+  console.log("A new request recived at" + Date.now().toString());
   next();
 });
 
 app.listen(8000)
+
+
